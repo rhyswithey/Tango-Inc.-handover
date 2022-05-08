@@ -57,7 +57,7 @@ namespace Tango_Inc.handover
                 {
                     InputBox.Clear();
                     InputBox.Focus();
-                    StatusLabel.Text = "*Binary Search (search 1)* Found: " + key;
+                    StatusLabel.Text = "Found: " + key + "    *Binary Search(search 1) *";
                     break;
                 }
                 else if (key < myNumbers[mid])
@@ -76,7 +76,7 @@ namespace Tango_Inc.handover
 
                 if (key != myNumbers[mid])
                 {
-                    StatusLabel.Text = "*Binary Search  (search 1)* NOT Found: " + key; 
+                    StatusLabel.Text = "NOT Found: " + key + "    *Binary Search(search 1) *"; 
                     break;
                 }
             }
@@ -266,12 +266,12 @@ namespace Tango_Inc.handover
             {
                 if (myNumbers[i] == key)
                 {
-                    StatusLabel.Text = "*Sequential Search (search 2)* Found: " + key;
+                    StatusLabel.Text = "Found: " + key + "    *Sequential Search (search 2)* ";
                     break;
                 }
                 else if (key < myNumbers[i])
                 {
-                    StatusLabel.Text = "*Sequential Search (search 2)* NOT Found: " + key;
+                    StatusLabel.Text = " NOT Found: " + key + "    *Sequential Search (search 2)*";
                     break;
                 }
             }
