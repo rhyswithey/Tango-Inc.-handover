@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tango_Inc.handover.Properties
+namespace FormAstronomicalProcessing.handover.Properties
 {
 
 

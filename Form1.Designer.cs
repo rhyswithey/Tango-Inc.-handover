@@ -1,4 +1,4 @@
-﻿namespace Tango_Inc.handover
+﻿namespace FormAstronomicalProcessing.handover
 {
     partial class TangoInc
     {

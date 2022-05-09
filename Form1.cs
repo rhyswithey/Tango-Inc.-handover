@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tango_Inc.handover
+namespace FormAstronomicalProcessing.handover
 {
     // Rhys Withey: 30015888
     // Team: Joseph, Rhys 
     // 18/04/2022
     // Tango Inc. Handover Astronomical Processing
     public partial class TangoInc : Form
+    #region Sprint One
     {
         //set the array including size, set sorted boolean
 
@@ -185,7 +186,9 @@ namespace Tango_Inc.handover
                 DisplayArray();
             }
         }
+        #endregion
 
+        #region Sprint Two
         // count the sum of numbers (i++) then / by 24 (the arrays size (.length)
         // make average display to 2 deciaml spaces
         private void Average_Click(object sender, EventArgs e)
@@ -280,3 +283,4 @@ namespace Tango_Inc.handover
         }      
     }
 }
+#endregion
